@@ -159,7 +159,9 @@ main{
 
     overflow:hidden;
 
-    width: 1700px;
+    max-width: 1700px;
+
+    width: 100%;
 
    margin:60px clamp(20px, 8vw, 100px) 0;
 

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>名前 | まぜちぃ支部</title>
+
+    <link rel="stylesheet" href="../style2.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ヘッダー -->
+
+    <header class="character-header">
+        <a class="back-button" href="../index.html"></a>
+        <h2>
+            まぜちぃ支部 職員記録：職員管理番号0008
+        </h2>
+    </header>
+
+
+
+    <!-- メイン -->
+
+    <main class="character-main">
+
+
+
+        <!-- キャラクター画像エリア -->
+
+        <!-- キャラクター基本情報 -->
+
+<section class="character-profile">
+
+
+    <!-- メイン写真 -->
+
+    <div class="main-photo">
+
+        <img src="../Agent_photo/メレンデス・マルロス.png" alt="メレンデス">
+
+    </div>
+
+
+
+    <!-- 名前・詳細 -->
+
+    <div class="character-info">
+
+
+        <h1>メレンデス・マルロス</h1>
+
+
+        <div class="detail">
+
+            <p class="detail-setumei">
+                元気で陽気な男性。妻子を過去に失っている影響で心配されるが、本人は気にしてないという。<br>
+                元夫ということもあり、家庭力が高く料理が得意。ラインハルトの弁当も彼が作っている。<br>
+                戦闘では荒々しく動くことが多く、突っ込みがちなスタイル。戻れないところまで深追いし<br>
+                ラインハルトに助けてもらうこともしばしば。ラインハルトとは悪ノリをすることが多く親友。
+
+            </p>
+
+        </div>
+         
+
+    </div>
+
+
+</section>
+<!-- ここから基本情報 -->
+
+<section class="profile-box">
+
+
+    <h2>プロフィール</h2>
+
+
+    <div class="profile-list">
+
+
+        <div class="profile-item">
+            <span>名前</span>
+            <p>メレンデス・マルロス</p>
+        </div>
+
+
+        <div class="profile-item">
+            <span>年齢</span>
+            <p>25</p>
+        </div>
+
+
+        <div class="profile-item">
+            <span>性別</span>
+            <p>男性</p>
+        </div>
+
+
+        <div class="profile-item">
+            <span>身長</span>
+            <p>185</p>
+        </div>
+
+        <div class="profile-item">
+            <span>E.G.O</span>
+            <p class="ALEPH">ミミック</p>
+        </div>
+
+
+        <div class="profile-item">
+            <span>好物</span>
+            <p>ラスク</p>
+        </div>
+
+         <div class="profile-item">
+            <span>所属部門</span>
+            <p>情報チーム</p>
+        </div>
+
+
+    <div class="profile-item trauma-item">
+
+        <span>トラウマ</span>
+
+        <p>
+            詳細を見る
+        </p>
+
+
+       <div class="trauma-detail">
+
+            <h2>翼戦争</h2>
+            <p class="trauma-sub">戦争の避難区にて、自身の指示ミスでテントが吹き飛んだ。その時に妻子を失った。</p>
+        </div>
+
+
+    </div>
+
+
+        <div class="profile-item">
+            <span>IMGF</span>
+            <p>IMGF</p>
+        </div>
+
+
+       <div class="profile-item">
+
+    <span>関係職員</span>
+
+    <p>
+
+        <a class="staff-link" href="characterA.html">
+
+            職員A
+
+            <img class="staff-preview" src="../Agent_photo/Base.png" alt="職員A">
+
+        </a>
+
+        /
+
+        <a class="staff-link" href="characterB.html">
+
+            職員B
+
+            <img class="staff-preview" src="../Agent_photo/Base.png" alt="職員B">
+
+        </a>
+
+    </p>
+
+</div>
+
+
+    </div>
+
+
+</section>
+　
+        <div class="detail2">
+
+            <p>
+                ここにキャラクター自己紹介を入力します。
+            </p>
+
+        </div>
+<section class="secret-file">
+
+    <h2>死亡記録</h2>
+
+    <p>
+        職員の死亡記録を閲覧できます。<br>
+    </p>
+
+    <button class="secret-button">
+
+        死亡記録を開く
+
+    </button>
+
+    <div class="secret-content">
+
+        <h3>Day55</h3>
+
+        <p>
+
+           アブノーマリティに殺害された。
+
+        </p>
+
+    </div>
+
+</section>
+
+    </main>
+
+
+
+
+
+    <!-- フッター -->
+
+    <footer>
+
+
+        <p>
+            © 2026 さるてぃ
+        </p>
+
+
+    </footer>
+
+
+
+</body>
+<script>
+
+const button = document.querySelector(".secret-button");
+
+const secret = document.querySelector(".secret-content");
+
+button.addEventListener("click",function(){
+
+    secret.classList.toggle("open");
+
+});
+
+</script>
+
+</html>
